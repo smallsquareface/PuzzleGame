@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="pic_w">80dp</dimen>
+    <dimen name="pic_h">100dp</dimen>
+    <dimen name="padding">10dp</dimen>
+</resources>

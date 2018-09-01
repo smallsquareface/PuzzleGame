@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PuzzleGame</string>
+    <string name="difficulty">Difficulty:</string>
+    <string name="difficulty_format">Difficulty: %1$d * %1$d</string>
+    <string name="choose">Choose</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+</resources>
