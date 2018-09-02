@@ -5,6 +5,8 @@ import android.util.DisplayMetrics;
 import android.view.Display;
 import android.view.WindowManager;
 
+import com.qinkai.puzzlegame.activity.PuzzleGame;
+
 public class ScreenUtil {
     /**
      * 获取屏幕相关参数
@@ -23,5 +25,17 @@ public class ScreenUtil {
             density = metrics.density;
         }
         return density;
+    }
+
+    public static DisplayMetrics getScreenSize(Context context) {
+        DisplayMetrics metrics = new DisplayMetrics();
+        WindowManager windowManager =
+                (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+
+        if (windowManager != null) {
+            Display display = windowManager.getDefaultDisplay();
+            display.getMetrics(metrics);
+        }
+        return metrics;
     }
 }

@@ -4,16 +4,17 @@ import android.graphics.Bitmap;
 
 public class ItemBean {
     private int itemId;
-    private int bitmapId;
+    private int bitmapId;   //-1代表空白图
     private Bitmap bitmap;
 
-    public void ItemBean() {
-    }
-
-    public void ItemBean(int itemId, int bitmapId, Bitmap bitmap) {
+    public ItemBean(int itemId, int bitmapId, Bitmap bitmap) {
         this.itemId = itemId;
         this.bitmapId = bitmapId;
         this.bitmap = bitmap;
+    }
+
+    public ItemBean() {
+
     }
 
     public int getItemId() {

@@ -5,4 +5,9 @@
     <string name="choose">Choose</string>
     <string name="camera">Camera</string>
     <string name="gallery">Gallery</string>
+    <string name="step_title">Step:</string>
+    <string name="time_title">Time:</string>
+    <string name="original_pic">Orig Pic</string>
+    <string name="reset">Reset</string>
+    <string name="back">Back</string>
 </resources>
